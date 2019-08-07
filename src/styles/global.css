@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:500&display=swap');
+
+html {
+  background-color: #D3D3D3;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.main-content {
+  height: 100vh;
+  padding: 0px 0px 0 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 680px;
+}
+
+.main-header {
+  color: white;
+  font-weight: 400;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+}
+
+.main-tagline {
+  font-style: normal;
+  font-family: 'Roboto', monospace;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+.main-description {
+  letter-spacing: 2px;
+  font-size: 1.4em;
+  color: #626262;
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 80px;
+}
+
+.portfolio-content {
+  height: 80vh;
+  padding: 160px 0px 0 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  max-width: 680px;
+}
+
+
