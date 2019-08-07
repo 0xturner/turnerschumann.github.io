@@ -3,9 +3,10 @@ import React from "react"
 import "./project.css"
 
 
-const imgStyle = {
-  width: `400px`,
-}
+// const imgStyle = {
+//   // width: `600px`,
+//   float: `right`,
+// }
 
 const Project = (props) => (
   <div class="project">
@@ -23,9 +24,9 @@ const Project = (props) => (
         <span><h4 class="learn-more">Learn More</h4></span>
       </a>
     </div>
-    {props.imgSrc && <div style={{ float: `right` }}>
+    {props.imgSrc && <div style={{ float: `right`, }}>
       <a href={props.imgSrc}>
-        <img style={imgStyle} src={props.imgSrc} alt={`project`} />
+        <img id={props.title} src={props.imgSrc} alt={`project`} />
       </a>
     </div>}
   </div>

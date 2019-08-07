@@ -9,20 +9,30 @@ const projects = [
   {
     title: `REFLECT`,
     description: `Reflect is a personal wellness application designed for users to find correlations between their daily mood, computer productivity, and activities.`,
-    imgSrc: `https://github.com/turnerschumann/reflect/blob/master/screenshots/Dashboard.gif?raw=true`,
+    imgSrc: `https://github.com/turnerschumann/turner-portfolio/blob/master/src/images/reflect-mockup.png?raw=true`,
     link: `https://github.com/turnerschumann/reflect`,
+    device: `computer`,
   },
   {
     title: `POLLR`,
     description: `Pollr is a decision-making app that creates polls for a group to collectively make a democratic decision.`,
-    imgSrc: `https://github.com/turnerschumann/decision-maker/blob/master/docs/Voting-Page.png?raw=true`,
+    imgSrc: `https://github.com/turnerschumann/turner-portfolio/blob/master/src/images/pollr-mockup.png?raw=true`,
     link: `https://github.com/turnerschumann/decision-maker`,
+    device: `mobile`,
+  },
+  {
+    title: `CHATTY`,
+    description: `Chatty`,
+    imgSrc: `https://github.com/turnerschumann/turner-portfolio/blob/master/src/images/chatty-mockup.png?raw=true`,
+    link: `https://github.com/turnerschumann/chatty`,
+    device: `computer`,
   },
   {
     title: `TWEETER`,
     description: `Tweeter is a simple, single-page Twitter clone that uses jQuery, HTML5 and CSS.`,
-    imgSrc: `https://github.com/turnerschumann/tweeter/blob/master/docs/Compose.png?raw=true`,
+    imgSrc: `https://github.com/turnerschumann/turner-portfolio/blob/master/src/images/tweeter-mockup.png?raw=true`,
     link: `https://github.com/turnerschumann/tweeter`,
+    device: `computer`,
   },
 ];
 
