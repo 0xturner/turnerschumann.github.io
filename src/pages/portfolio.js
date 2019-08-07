@@ -9,7 +9,7 @@ const projects = [
   {
     title: `REFLECT`,
     description: `Reflect is a personal wellness application designed for users to find correlations between their daily mood, computer productivity, and activities.`,
-    imgSrc: `https://github.com/turnerschumann/turner-portfolio/blob/master/src/images/reflect-mockup.png?raw=true`,
+    imgSrc: `https://github.com/turnerschumann/turnerschumann.github.io/blob/master/src/images/reflect-mockup.png?raw=true`,
     link: `https://github.com/turnerschumann/reflect`,
     device: `computer`,
   },
