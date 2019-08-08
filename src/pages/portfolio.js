@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: `CHATTY`,
-    description: `Chatty`,
+    description: `Chatty was built to replicate modern chat application like Slack and Facebook Messenger. By utilizing websockets, users are able to converse in real-time.`,
     imgSrc: `https://github.com/turnerschumann/turnerschumann.github.io/blob/working/src/images/chatty-mockup.png?raw=true`,
     link: `https://github.com/turnerschumann/chatty`,
     device: `computer`,
@@ -49,7 +49,7 @@ class PortfolioPage extends Component {
         <div class="portfolio-content">
           <h1 class='main-header'>PORTFOLIO</h1>
           <h2 class='main-tagline'>Selected Projects</h2>
-          <p class='main-description'>From editorial websites to complex dashboards, data visualisations, large media productions and SaaS single page web applications—been there, done that.</p>
+          <p class='main-description'>From simple Wordpress websites to complex dashboards, data visualisations, real-time chat and SaaS single page web applications—I have the skills to deliver elegant, user-friendly solutions.</p>
           <hr width="15%" style={{ borderTop: `1px solid white`, background: `white`, }}></hr>
         </div>
         <div class="portfolio">

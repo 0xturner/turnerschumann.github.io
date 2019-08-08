@@ -14,7 +14,6 @@ const Project = (props) => (
       float: `left`,
       width: props.imgSrc ? `60%` : `100%`,
       minWidth: `300px`,
-      // paddingBottom: `100px`,
     }}>
       <a class="project-link" href={props.link}>
         <span><h3 class="project-title-text">{props.title}</h3></span>
@@ -24,7 +23,7 @@ const Project = (props) => (
         <span><h4 class="learn-more">Learn More</h4></span>
       </a>
     </div>
-    {props.imgSrc && <div style={{ float: `right`, }}>
+    {props.imgSrc && <div style={{ float: `right`, paddingLeft: `30px`, }}>
       <a href={props.imgSrc}>
         <img id={props.title} src={props.imgSrc} alt={`project`} />
       </a>

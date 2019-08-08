@@ -26,8 +26,8 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div class="main-content">
       <h1 class="main-header">HI, I'M TURNER,</h1>
-      <h2 class="main-tagline">I help companies deliver great digital experiences</h2>
-      <p class="main-description">I’m a product designer and front-end developer with a broad range of skills and expertise in all user experience design related fields.</p>
+      <h2 class="main-tagline">I help companies deliver exceptional digital experiences</h2>
+      <p class="main-description">I’m a fullstack developer and UI specialist with a broad range of skills and expertise in all web development related fields.</p>
       <div>
         <StyledLink to="/portfolio/">SEE MY WORK</StyledLink>
       </div>
